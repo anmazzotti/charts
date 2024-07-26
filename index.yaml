@@ -292,6 +292,30 @@ entries:
       catalog.cattle.io/upstream-version: 1.5.0
     apiVersion: v2
     appVersion: 1.5.0
+    created: "2024-07-26T13:01:33.613137854+02:00"
+    description: Elemental provides Cloud Native OS Management for Cluster Nodes.
+    digest: aea9126437eaf30c00f384db8192f99b327cea86ac041a168d0d730835b31ded
+    icon: https://raw.githubusercontent.com/rancher/elemental/main/logo/icon-elemental.svg
+    name: elemental-operator
+    urls:
+    - assets/elemental-operator/elemental-operator-103.11.9+up1.5.0.tgz
+    version: 103.11.9+up1.5.0
+  - annotations:
+      catalog.cattle.io/auto-install: elemental-operator-crds=match
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/display-name: Elemental
+      catalog.cattle.io/kube-version: '>= 1.23.0-0'
+      catalog.cattle.io/namespace: cattle-elemental-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux
+      catalog.cattle.io/provides-gvr: elemental.cattle.io/v1beta1
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0'
+      catalog.cattle.io/release-name: elemental-operator
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/type: cluster-tool
+      catalog.cattle.io/upstream-version: 1.5.0
+    apiVersion: v2
+    appVersion: 1.5.0
     created: "2024-07-26T12:59:33.002453165+02:00"
     description: Elemental provides Cloud Native OS Management for Cluster Nodes.
     digest: eb5dea8939657b240dff39d5589c8d0128ffcefe838bbd58c7f3076334b5e122
