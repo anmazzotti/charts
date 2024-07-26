@@ -275,6 +275,31 @@ entries:
     urls:
     - assets/elemental-crd/elemental-crd-103.0.0+up1.3.4.tgz
     version: 103.0.0+up1.3.4
+  elemental-operator:
+  - annotations:
+      catalog.cattle.io/auto-install: elemental-operator-crds=match
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/display-name: Elemental
+      catalog.cattle.io/kube-version: '>= 1.23.0-0'
+      catalog.cattle.io/namespace: cattle-elemental-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux
+      catalog.cattle.io/provides-gvr: elemental.cattle.io/v1beta1
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0'
+      catalog.cattle.io/release-name: elemental-operator
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/type: cluster-tool
+      catalog.cattle.io/upstream-version: 1.5.0
+    apiVersion: v2
+    appVersion: 1.5.0
+    created: "2024-07-26T11:23:25.974833961+02:00"
+    description: Elemental provides Cloud Native OS Management for Cluster Nodes.
+    digest: c0375af908773013da9b2fbe668809e66074825c88421a66544b6c080ffa8d0f
+    icon: https://raw.githubusercontent.com/rancher/elemental/main/logo/icon-elemental.svg
+    name: elemental-operator
+    urls:
+    - assets/elemental-operator/elemental-operator-103.9.9+up1.5.0.tgz
+    version: 103.9.9+up1.5.0
   epinio:
   - annotations:
       artifacthub.io/license: Apache-2.0
